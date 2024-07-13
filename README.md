@@ -21,7 +21,7 @@ VulnPortChecker is a comprehensive vulnerability and port checking script for Ub
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/USERNAME/VulnPortChecker.git
+    git clone https://github.com/fobaty/VulnPortChecker.git
     cd VulnPortChecker
     ```
 
