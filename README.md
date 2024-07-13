@@ -49,6 +49,9 @@ The results of each step will be logged in the /var/log/ directory:
 - Open ports: /var/log/open_ports.log
 
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
