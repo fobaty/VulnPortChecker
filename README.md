@@ -33,7 +33,23 @@ VulnPortChecker is a comprehensive vulnerability and port checking script for Ub
 
 ## Usage
 
+
 Run the script with root privileges to perform the vulnerability and port check:
 
 ```bash
 sudo ./VulnPortChecker.sh
+ ```
+## Results
+The results of each step will be logged in the /var/log/ directory:
+
+- Lynis audit: /var/log/lynis_audit.log
+- chkrootkit scan: /var/log/chkrootkit_scan.log
+- rkhunter scan: /var/log/rkhunter_scan.log
+- ClamAV scan: /var/log/clamav_scan.log
+- Open ports: /var/log/open_ports.log
+
+
+
+
+
+
